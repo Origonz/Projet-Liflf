@@ -13,7 +13,7 @@ const unsigned int ASCII_A = 97;
 const unsigned int ASCII_Z = ASCII_A + 26;
 const bool         DEBUG = false;
 
-typedef size_t                              etat_t;
+typedef int                             etat_t;
 typedef unsigned char                       symb_t;
 typedef std::set<etat_t>                    etatset_t;
 typedef std::vector<std::vector<etatset_t>> trans_t;
@@ -24,9 +24,9 @@ typedef std::map<etatset_t, etat_t>         map_t;
 
 struct sAutoNDE{
   // caractéristiques
-  size_t nb_etats;
-  size_t nb_symbs;
-  size_t nb_finaux;
+  int nb_etats;
+  int nb_symbs;
+  int nb_finaux;
 
   etat_t initial;
   // état initial
