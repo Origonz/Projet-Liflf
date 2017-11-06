@@ -1,8 +1,8 @@
 Rendu du projet LIIFLC 2017-2018
 ================================
 
-BRANDON   Romuald   #123456
-THIEL     Sylvain   #456789
+REYMOND Cyril #11300239
+BRESSOT Arnaud #11505990
 
 Voir http://liris.cnrs.fr/sylvain.brandel/wiki/doku.php?id=ens:liflf:projet
 
