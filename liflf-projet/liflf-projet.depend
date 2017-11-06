@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/Accept.cpp
+	<iostream>
+	<algorithm>
+	"Accept.h"
+	"FA_tools.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/Accept.h
+	"FA_types.h"
+
+1509951656 /home/billy/git/Projet-Liflf/liflf-projet/FA_types.h
+	<vector>
+	<set>
+	<map>
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/FA_tools.h
+	<iostream>
+	<cassert>
+	<queue>
+	<list>
+	<fstream>
+	<sstream>
+	"FA_types.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/Determinize.cpp
+	<iostream>
+	"Determinize.h"
+	"FA_tools.h"
+	"Accept.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/Determinize.h
+	"FA_types.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/Equivalence.cpp
+	<iostream>
+	<cassert>
+	"Equivalence.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/Equivalence.h
+	"FA_types.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/ExpressionRationnelle.cpp
+	"ExpressionRationnelle.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/ExpressionRationnelle.h
+	<iostream>
+	<string>
+	<set>
+	<vector>
+	<map>
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/FA_main.cpp
+	<iostream>
+	<algorithm>
+	"FA_types.h"
+	"FA_tools.h"
+	"Accept.h"
+	"Determinize.h"
+	"ToGraph.h"
+	"ExpressionRationnelle.h"
+	"parser.hpp"
+	"Minimize.h"
+	"Equivalence.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/ToGraph.h
+	<string>
+	"FA_types.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/parser.hpp
+	"ExpressionRationnelle.h"
+	<iostream>
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/Minimize.h
+	"FA_types.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/FA_tools.cpp
+	"FA_tools.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/lex.yy.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+	<inttypes.h>
+	"parser_defs.hpp"
+	"parser.tab.hpp"
+	<iostream>
+	<unistd.h>
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/parser_defs.hpp
+	<stdio.h>
+	"ExpressionRationnelle.h"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/parser.tab.hpp
+	<string>
+	<iostream>
+	"stack.hh"
+	"parser_defs.hpp"
+	<iostream>
+	<string>
+	<sstream>
+	"location.hh"
+
+1509951662 /home/billy/git/Projet-Liflf/liflf-projet/stack.hh
+	<vector>
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/location.hh
+	<iostream>
+	<string>
+	"position.hh"
+
+1509950508 /home/billy/git/Projet-Liflf/liflf-projet/position.hh
+	<iostream>
+	<string>
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/Minimize.cpp
+	<iostream>
+	<vector>
+	<list>
+	<algorithm>
+	"Minimize.h"
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/parser.tab.cpp
+	"parser.tab.hpp"
+	<libintl.h>
+
+1509950508 source:/home/billy/git/Projet-Liflf/liflf-projet/ToGraph.cpp
+	"ToGraph.h"
+
