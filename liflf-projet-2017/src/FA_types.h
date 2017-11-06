@@ -13,7 +13,7 @@ const unsigned int ASCII_A = 97;
 const unsigned int ASCII_Z = ASCII_A + 26;
 const bool         DEBUG = false;
 
-typedef int                             etat_t;
+typedef int                                 etat_t;
 typedef unsigned char                       symb_t;
 typedef std::set<etat_t>                    etatset_t;
 typedef std::vector<std::vector<etatset_t>> trans_t;
