@@ -24,9 +24,9 @@ typedef std::map<etatset_t, etat_t>         map_t;
 
 struct sAutoNDE{
   // caractéristiques
-  int nb_etats;
-  int nb_symbs;
-  int nb_finaux;
+  unsigned int nb_etats;
+  unsigned int nb_symbs;
+  unsigned int nb_finaux;
 
   etat_t initial;
   // état initial
